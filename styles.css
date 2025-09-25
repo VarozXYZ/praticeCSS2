@@ -46,5 +46,22 @@ input:checked + label {
     color: darkblue;
 }
 
+fieldset:disabled {
+    background-color: grey;
+}
 
+input:invalid {
+    border: 2px solid green;
+}
 
+input:focus-within {
+    border-color: blueviolet;
+}
+
+p::before {
+    content: "⚠️";
+}
+
+p::after {
+    content: "⚠️";
+}

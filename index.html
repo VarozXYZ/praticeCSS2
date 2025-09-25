@@ -17,5 +17,24 @@
         <li>Elemento 3</li>
         <li>Elemento 4</li>
     </ul>
+
+    <form action="home.jsx" method="post">
+        <fieldset>
+            <legend>Información</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </fieldset>
+        <fieldset disabled>
+            <legend>Preferencias</legend>
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <label for="newsletter">Suscribirse a la newsletter</label>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p>Mensaje importante!</p>
 </body>
 </html>
