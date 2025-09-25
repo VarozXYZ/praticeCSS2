@@ -14,3 +14,37 @@ button:active {
     transform: scale(0.9);
     color: red;
 }
+
+input:focus {
+    border: 2px solid orange;
+    outline: none;
+}
+
+li:nth-child(2) {
+    color: red;
+
+}
+
+li:nth-child(even) {
+    font-style: italic;
+}
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    color: green;
+}
+
+li:not(:first-child) {
+    color: green;
+}
+
+input:checked + label {
+    font-weight: bold;
+    color: darkblue;
+}
+
+
+
